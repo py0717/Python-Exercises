@@ -40,7 +40,7 @@ def decode(phrase):
     
     try:
         if phrase[0].isalpha() == True or phrase[0] == ' ':
-                phrase.insert(0, '1')
+            phrase.insert(0, '1')
     except:
         pass
 
