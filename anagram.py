@@ -4,7 +4,7 @@ import unittest
 
 
 def detect_anagrams(word, candidates):
-    """ inputs string and list of candidate words, returns list of anagrams """
+    """ inputs string and list of strings, returns list of anagrams """
 
     # get rid of identical words in candidates list
     for n,i in enumerate(candidates):
